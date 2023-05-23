@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAV -->
+      <nav id="small-nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#hero" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="/#skills" class="nav__link active">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+
+          <li class="nav__item">
+            <div class="checkbox">
+              <label class="switch">
+                <input type="checkbox" onchange="dark()" />
+                <span class="ball"></span>
+              </label>
+              <img id="sun" src="./img/sun-solid.svg" alt="sun" />
+              <img id="moon" src="./img/moon-solid.svg" alt="moon" />
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- HERO -->
+      <div id="hero">
+        <div class="hero-container">
+          <div class="hero-text">
+            <br /><br /><br /><br />
+            <h3>WELCOME</h3>
+            <br /><br /><br /><br /><br />
+            <p class="portfolio">TO MY PORTFOLIO!</p>
+            <p>My name is &nbsp&nbsp<span> Ivan Zivkovic </span></p>
+            <br />
+            <div class="typewritter">Hover my photo...</div>
+            <div class="hero-social">
+              <a href="https://www.linkedin.com/in/ivan-zivkovic-a6a51819a/"
+              target="_blank"><img src="./img/linkedin-in.svg" alt="linkedin"
+              /></a>
+              <a href="https://twitter.com/ivanzivkovic90"
+              target="_blank"><img src="./img/twitter.svg" alt="twitter"
+              /></a>
+              <a href="https://www.instagram.com/ivanz90/"
+              target="_blank"><img src="./img/instagram.svg" alt="instagram"
+              /></a>
+              <a href="https://www.facebook.com/ivanz90/"
+              target="_blank" ><img src="./img/facebook-f.svg" alt="facebook"
+              /></a>
+            </div>
+          </div>
+          <div class="hero-img">
+            <div class="kartica-dva">
+              <div class="flip-front">
+                <img src="img/profilna-removebg-preview 2.png" alt="profilna" />
+              </div>
+              <div class="flip-back">
+                <img src="./img/slika 2.jpg" alt="slika" />
+                
+              </div>
+
+            </div>
+            <img id="manja_slika" src="img/profilna-removebg-preview 2.png" alt="profilna" />
+          </div>
+        </div>
+      </div>
+
+      <!-- ABOUT ME -->
+      <div class="about-naslov">
+        <h2>ABOUT ME</h2>
+        <p class="port">Who am I?</p>
+      </div>
+      <div id="about">
+        <div class="about-img">
+          <img src="./img/car-side-solid.svg" alt="car" />
+          <img src="./img/code-fork-solid.svg" alt="fork" />
+          <img src="./img/traffic-light-solid.svg" alt="light" />
+          <img src="./img/laptop-code-solid.svg" alt="laptop" />
+        </div>
+        <div class="about">
+          <p>
+            My name is Ivan Zivkovic, I graduated at the University of Belgrade,
+            Faculty of Traffic and Transport. At the moment I am attending
+            COMTRADE course for a front-end developer. I wish to add front-end
+            developing to my set of skills. This section will change as I
+            progress further with learning how to code. Please find below my
+            current set of skills and bear in mind that below section will also
+            change by the time I finish the course.
+          </p>
+        </div>
+      </div>
+      <!-- SKILLS -->
+      <div id="skills">
+        <h2>SKILLS</h2>
+        <div class="skills">
+          <div class="skills-img">
+            <img src="./img/html.webp" alt="html" />
+          </div>
+          <div class="skills-img"><img src="./img/CSS.jpg" alt="css" /></div>
+          <div class="skills-img">
+            <img src="./img/BOOT.png" alt="bootstrap" />
+          </div>
+          <div class="skills-img"><img src="./img/js.png" alt="js" /></div>
+        </div>
+      </div>
+      <!-- PROJECTS -->
+      <div id="projects">
+        <h2>PROJECTS</h2>
+        <h3>Please find some of the projects and exercises below :</h3>
+        <div class="projects">
+          <div class="projects-img">
+            <img src="img/edge ledger.PNG" alt="edge" />
+          </div>
+          <div class="projects-img">
+            <img src="img/jupiter.PNG" alt="jupiter" />
+          </div>
+          <div class="projects-img">
+            <img src="img/omni food.PNG" alt="omni" />
+          </div>
+          <div class="projects-img">
+            <img src="img/shop store.PNG" alt="store" />
+          </div>
+          <div class="projects-img">
+            <img src="img/start eating well.PNG" alt="start" />
+          </div>
+          <div class="projects-img">
+            <img src="img/ubuntu.PNG" alt="ubuntu" />
+          </div>
+          <div class="projects-img">
+            <img src="img/shop chairs.PNG" alt="chairs" />
+          </div>
+          <div class="projects-img">
+            <img src="img/fss.PNG" alt="fss" />
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT -->
+      <div id="contact">
+        <h2>CONTACT ME</h2>
+        <h3>Let's design something together</h3>
+        <div class="contact">
+          <div class="contact-left">
+            <div class="contact-field">
+              <a href="mailto:ivan.zivkovic.sf@gmail.com"
+                ><img src="./img/envelope-solid.svg" alt="email"
+              /></a>
+              <p>ivan.zivkovic.sf@gmail.com</p>
+            </div>
+            <div class="contact-field">
+              <a href="tel:+381603091260"
+                ><img src="img/phone-solid.svg" alt="phone"
+              /></a>
+              <p>+381 60 309 1260</p>
+            </div>
+            <div class="contact-field">
+              <a href="https://join.skype.com/invite/ICael5eT2yRO"
+              target="_blank"><img src="img/skype.svg" alt="skype"
+              /></a>
+              <p>https://join.skype.com/invite/ICael5eT2yRO</p>
+            </div>
+            <div class="contact-field">
+              <a
+                href="https://drive.google.com/u/0/uc?id=12-iz9ViwGs0p68qVHA9Matdbusb0Fjv4&export=download"
+                download
+                ><img src="img/download-solid.svg" alt="download"
+              /></a>
+              <p>Download CV</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form
+              action="mailto:ivan.zivkovic.sf@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="form-item">
+                <input
+                  type="text"
+                  name="First name"
+                  id="first_name"
+                  placeholder="First name"
+                />
+              </div>
+              <div class="form-item">
+                <input
+                  type="text"
+                  name="Last name"
+                  id="last_name"
+                  placeholder="Last name"
+                />
+              </div>
+              <div class="form-item">
+                <input
+                  type="text"
+                  name="Your e-mail"
+                  id="your-e-mail"
+                  placeholder="Your email"
+                />
+              </div>
+              <div class="form-item">
+                <input
+                  type="text"
+                  name="Your phone number"
+                  id="your_phone number"
+                  placeholder="Your phone number"
+                  class="inputitem"
+                />
+              </div>
+              <div class="form-item">
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  cols="30"
+                  rows="10"
+                  placeholder="&nbsp Your text here"
+                ></textarea>
+              </div>
+              <div class="form-item button">
+                <input class="submit" type="submit" name="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <footer class="footer">Designed by me :)</footer>
+    </div>
+
+    <!-- DARK MODE -->
+
+    <div class="dark-mode-body"></div>
+    <script src="./js/js.js"></script>
+  </body>
+</html>
